@@ -26,8 +26,7 @@
 
 /* Style page content */
 .main {
-  margin-left: 130px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  margin-left: 130px; /* Same as the width of the sidebar */ 
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -184,20 +183,20 @@ footer a {
   margin: 0 3px;
   color:#111;
 }
-footer a:hover {
-  
+
+footer a:hover {  
   color:#818181;
 }
 
-
 #me {
   float: left;
-  width: 30%;
+  width: 25%;
+  padding-right: 10px;
 }
 
 #name {
   float: right;
-  width: 70%;
+  width: 63%;
 }
 
  #title {
