@@ -1,6 +1,6 @@
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 130px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -26,7 +26,7 @@
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 130px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
@@ -39,6 +39,11 @@
   /* Projects Styling */
   * {
     box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    
   }
   
   body {
@@ -112,7 +117,7 @@
 .flip-card {
   background-color: transparent;
   width: 200px;
-  height: 100px;
+  height: 150px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   position: relative;
@@ -144,15 +149,15 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
 }
 
 .flip-card-front p {
   position: absolute;
   left: 44%;
-  top: 50%;
+  top: 45%;
   width: 50px;
   height: 50px;
   transform: translate(-50%,-50%)
@@ -160,10 +165,61 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #bbb;
+  color: black;
   transform: rotateY(180deg);
 }
 .flip-card-back p {
   font-size:75%;
+  margin: 15px 0 4px 4px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+footer a {
+  margin: 0 3px;
+  color:#111;
+}
+footer a:hover {
+  
+  color:#818181;
+}
+
+
+#me {
+  float: left;
+  width: 30%;
+}
+
+#name {
+  float: right;
+  width: 70%;
+}
+
+ #title {
+  margin: auto;
+  width: 60%;
+  padding-bottom: 10px;
+ }
+
+ .btn {
+  margin: auto;
+  width: 65%;
+  padding-bottom: 1px;
+ }
+
+#home:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contact {
+  display: inline-block;
+}
+
+
