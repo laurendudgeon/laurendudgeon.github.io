@@ -22,7 +22,7 @@
     </head>
     <body>
         <!--Navigation Bar-->
-        <div class="sidenav" id="myTopnav">
+        <div class="sidenav">
             <a href="#home" class="active">Home</a>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
@@ -35,21 +35,25 @@
         </div>
         
         <div class="main">
-        <!-- Welcome Area-->
-        <div id="home">
+        <!-- Profile-->
+        <section id="home">
             <div id="me">
                 <img src="assets/Headshot_Crop.jpg" alt="Professional Photo" height="200">
             </div>
-            <div id="name">
-                <h1>Lauren Dudgeon</h1>
+            <div id="hero">
+                <div id="name">
+                    <p>Lauren Dudgeon</p>
+                </div>
                 <div id="title">
-                    <h3>Software Engineer</h3>
+                    <p>Software Engineer</p>
+                </div>
+                <div id="btncontainer">
                     <form method="get" action="assets/resume.pdf">
                         <button class="btn" type="submit"><i class="fa fa-download"></i> Download Resume</button>
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="projects" id="projects">
         
@@ -58,31 +62,34 @@
             <!-- Projects Gallery Grid -->
             <div class="row">
                 <div class="column">
-                <div class="content">
-                    <img src="assets/smartcart.png" alt="Autonomous Cart" style="width:100%">
-                    <h3>SmartCart</h3>
-                    <p>Lead team SmartCart in creating an autonomous cart that
-                    moves heavy objects from point A to point B with a budget of $500. Utilized <b>Python</b> and <b>ROS2</b> to
-                    create the weight-based acceleration, obstacle avoidance, and user interface.
-                    </p>
-                </div>
+                    <div class="content">
+                        <img src="assets/smartcart.png" alt="Autonomous Cart" style="width:100%">
+                        <h3>SmartCart</h3>
+                        <p>Lead team SmartCart in creating an autonomous cart that
+                        moves heavy objects from point A to point B with a budget of $500. Utilized <b>Python</b> and <b>ROS2</b> to
+                        create the weight-based acceleration, obstacle avoidance, and user interface.
+                        </p>
+                    </div>
                 </div>
                 <div class="column">
-                <div class="content">
-                    <img src="assets/rdbms.png" alt="RDBMS Diagram" style="width:100%">
-                    <h3>Dentist RDBMS</h3>
-                    <p>Designed a relational database for an example dentist client for my
-                    Databases Course. Given a list of requirements created EERD, relations, and possible
-                    queries. <b>SQL</b> and <b>SSMS</b> were utilized in this project.
-                    </p>
+                    <div class="content">
+                        <img src="assets/rdbms.png" alt="RDBMS Diagram" style="width:100%">
+                        <h3>Dentist RDBMS</h3>
+                        <p>Designed a relational database for an example dentist client for my
+                        Databases Course. Given a list of requirements created EERD, relations, and possible
+                        queries. <b>SQL</b> and <b>SSMS</b> were utilized in this project.
+                        </p>
+                    </div>
                 </div>
+
+                <div class="column">
+                    <div class="content">
+                        <img src="assets/littlelemon.png" alt="Bear" style="width:100%">
+                        <h3>Little Lemon Website</h3>
+                        <p>Responsive website using <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="content">
-                <img src="assets/littlelemon.png" alt="Bear" style="width:100%">
-                <h3>Little Lemon Website</h3>
-                <p>Responsive website using <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>.</p>
-            </div>
+            
         </div>
 
         <div id="about">
