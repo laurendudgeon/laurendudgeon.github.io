@@ -1,7 +1,22 @@
 a, button {
-    color: #f7f7f7;
+    color: rgb(0, 0, 0);
 }
 
+a:hover, button:hover {
+    color: rgb(0, 0, 0) !important;
+}
 * {
     padding: 0;
+}
+
+#project {
+    color: #ff595e;
+}
+
+#about {
+    color: #ffca3a;
+}
+
+#contact {
+    color: #8ac926;
 }

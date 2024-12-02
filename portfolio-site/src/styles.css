@@ -1,28 +1,13 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+* {
+  background-color: whitesmoke;
 }
-  
-  /* Make the main content area grow to fill the available space */
-  main {
-    flex: .8;
-  }
-  
-  /* Footer styling */
-  .footer {
-    
-    color: #d3d3d3;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 1px solid #444;
-  }
-  * {
-    background-color: white;
-  }
 
-  .star {
-    width: 2em;
-    height: 2em;
-  }
+.star {
+  width: 2em;
+  height: 2em;
+}
+
+.page {
+  padding: 30px !important;
+  background-color: whitesmoke;
+}

@@ -14,7 +14,7 @@
 }
 .row {
     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
+    
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1* var(--bs-gutter-y));
@@ -31,7 +31,6 @@ div {
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
@@ -213,6 +212,31 @@ body {
     box-sizing: border-box;
 }
 
-* {
-    color: #748cab;
+h1 {
+    color: #1982c4 !important;
 }
+
+.job {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.company {
+    width: 20%;
+    height: auto;
+    max-width: 150px;
+}
+
+
+
+.job {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+  
+  
+.job-text {
+    flex: 1; 
+}
+  
