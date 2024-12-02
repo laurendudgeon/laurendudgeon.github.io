@@ -239,4 +239,7 @@ h1 {
 .job-text {
     flex: 1; 
 }
-  
+
+img {
+    max-width: 400px;
+}
