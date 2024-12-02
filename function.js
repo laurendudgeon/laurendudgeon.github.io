@@ -5,7 +5,7 @@ function myFunction() {
       x.className += " responsive";
     } else {
       x.className = "topnav";
-    }
+    }  
   }
 
 /* Download resume button */
